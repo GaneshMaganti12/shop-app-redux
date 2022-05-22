@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import LaptopCard from './components/Shop/LaptopCard';
+import MobileCard from './components/Shop/MobileCard';
+import HookLaptopCard from './components/ShopHooks/HookLaptopCard';
+import HookMobileCard from './components/ShopHooks/HookMobileCard';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='card1'>
+        <LaptopCard/>
+        <MobileCard/>
+      </div>
+      <div className='card2'>
+        <HookLaptopCard/>
+        <HookMobileCard/>
+      </div>
     </div>
   );
 }

@@ -1,5 +1,21 @@
 .App {
   text-align: center;
+  background-color: yellowgreen;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card1{
+  background-color: #61dafb;
+  margin-right: 20px;
+  padding: 30px;
+  border-radius: 12px;
+}
+.card2{
+  background-color: palegreen;
+  padding: 30px;
+  border-radius: 12px;
 }
 
 .App-logo {
